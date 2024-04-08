@@ -5,13 +5,11 @@ function App() {
   return (
     <>
       <div className="container mx-auto p-4">
-        <h1>Task crud Redux Toolkit</h1>
-        <main className="flex gap-4">
-          <div>
-            <TaskForm />
-          </div>
+        <h1 className="font-bold text-2xl">Task crud Redux Toolkit</h1>
+        <div>
+          <TaskForm />
           <TaskList />
-        </main>
+        </div>
       </div>
     </>
   );
